@@ -1,5 +1,5 @@
 import React from 'react'
-import Logointento from '../../../public/images/logo-123x35.png'
+import Logointento from '../images/logo-123x35.png'
 
 export default function Navbar() {
   return (
