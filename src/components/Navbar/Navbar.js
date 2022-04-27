@@ -1,4 +1,5 @@
 import React from 'react'
+import Logointento from '../../../public/images/logo-123x35.png'
 
 export default function Navbar() {
   return (
@@ -11,7 +12,7 @@ export default function Navbar() {
           <div className="rd-navbar-panel">
             <button className="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
            
-            <div className="rd-navbar-brand"><a className="brand-name" href="#"><img src="images/logo-123x35.png" alt=""  style={{width:"123", height:"35"}}/></a></div>
+            <div className="rd-navbar-brand"><a className="brand-name" href="#"><img src={Logointento} alt=""  style={{width:"123", height:"35"}}/></a></div>
           </div>
           
           <div className="rd-navbar-nav-wrap">
