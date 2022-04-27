@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import '../public/css/style.css'
+import './assets/css/style.css'
 
 import {
   BrowserRouter,
@@ -8,8 +8,8 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Inicio from './components/Inicio/inicio'
-import Navbar from './components/Navbar/Navbar';
+import Inicio from './components/Inicio/Inicio.js'
+import Navbar from './components/Navbar/Navbar.js';
 
 function App() {
   return (

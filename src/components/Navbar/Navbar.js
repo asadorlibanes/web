@@ -12,22 +12,22 @@ export default function Navbar() {
           <div className="rd-navbar-panel">
             <button className="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
            
-            <div className="rd-navbar-brand"><a className="brand-name" href="#"><img src={Logointento} alt=""  style={{width:"123", height:"35"}}/></a></div>
+            <div className="rd-navbar-brand"><a className="brand-name" href="/"><img src={Logointento} alt=""  style={{width:"123", height:"35"}}/></a></div>
           </div>
           
           <div className="rd-navbar-nav-wrap">
-            <div className="rd-navbar-nav-wrap__element"><a className="button button-gray-light-outline"  href="#"><span>Book online</span></a></div>
+            <div className="rd-navbar-nav-wrap__element"><a className="button button-gray-light-outline"  href="/"><span>Book online</span></a></div>
             <ul className="rd-navbar-nav">
-              <li className="active"><a href="#">Home</a>
+              <li className="active"><a href="/">Home</a>
                 </li>
-              <li><a href="#">about</a>
+              <li><a href="/">about</a>
               </li>
-              <li><a href="#">Menu</a>
+              <li><a href="/">Menu</a>
                 
               </li>
              
               
-              <li><a href="#">Contacts</a>
+              <li><a href="/">Contacts</a>
               </li>
             </ul>
           </div>
