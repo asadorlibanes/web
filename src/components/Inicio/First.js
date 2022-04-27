@@ -1,10 +1,11 @@
 import React from 'react'
+import Parallax from '../../assets/site/images/index-parallax-1-1920x1080.jpg'
 
 export default function First() {
   return (
     <section className="section-first-screen text-center">
-        <div className="rd-parallax bg-image parallax-header rd-parallax-light parallax-overlay" data-on="false" data-md-on="true" style={{backgroundImage: "url(images/index-parallax-1-1920x1080.jpg)"}}>
-          <div className="rd-parallax-layer" data-speed="0.35" data-type="media" data-url="images/index-parallax-1-1920x1080.jpg"></div>
+        <div className="rd-parallax bg-image parallax-header rd-parallax-light parallax-overlay" data-on="false" data-md-on="true" style={{backgroundImage:  `url(${Parallax})`}}>
+          <div className="rd-parallax-layer" data-speed="0.35" data-type="media" data-url={Parallax}></div>
           <div className="rd-parallax-layer" data-speed="0.1" data-type="html">
             <div className="parallax-header__inner">
               <div className="parallax-header__content">
@@ -33,7 +34,7 @@ export default function First() {
                             </dl>
                           </li>
                         </ul>
-                        <hr className="divider-minimal wow fadeInDownSmall" data-wow-delay="2.6s"> </hr>
+                        <hr className="divider-minimal wow fadeInDownSmall" data-wow-delay="2.6s"></hr>
                       </div>
                     </div>
                   </div>
